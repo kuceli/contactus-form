@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: whitesmoke;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  /* border: 2px solid red; */
+}
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+input {
+  height: 30px;
+}
+textarea {
+  height: 100px;
+}
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 400px;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #595377;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  /* margin-bottom: 20px; */
+}
+input::placeholder,
+textarea::placeholder {
+  color: #595377;
+  font-size: 14px;
+  font-weight: 500;
+}
+input:hover,
+textarea:hover {
+  border: 2px solid #d6d5ed;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid #595377;
+}
+.form-control {
+  /* border: 2px solid red; */
+  margin-bottom: 20px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.errorMsg {
+  color: red;
+}
+.errorMsg,
+.successMsg {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+  /* font-family: "Roboto", sans-serif; */
+}
+.successMsg {
+  color: green;
+}
+.formHeader {
+  text-align: center;
+  font-size: 55px;
+  color: #474260;
+  font-weight: 600;
+  /* border: 2px solid red; */
+  margin-bottom: 45px;
+}
+button {
+  background-color: #595377;
+  border: 2px solid #595377;
+  /* outline: none; */
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 160px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+button:hover {
+  border: 2px solid #595377;
+  /* background-color: #595377; */
+  background-color: white;
+  cursor: pointer;
+  color: #595377;
+}
+button:disabled {
+  background-color: #595377b8;
+  border: none;
+  padding: 13px 30px;
+  cursor: default;
+}
+button:disabled:hover {
+  background-color: #595377b8;
+  color: white;
+  border: none;
+}
+.btnIcon {
+  margin-right: 4px;
+}
